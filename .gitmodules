@@ -2,3 +2,7 @@
 	path = src/asterisk
 	url = https://github.com/asterisk/asterisk.git
 	branch = releases/21
+[submodule "src/pjproject"]
+	path = src/pjproject
+	url = https://github.com/pjsip/pjproject.git
+	branch = 2f4bc29
