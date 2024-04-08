@@ -1,0 +1,4 @@
+[submodule "src/asterisk"]
+	path = src/asterisk
+	url = https://github.com/asterisk/asterisk.git
+	branch = releases/21
