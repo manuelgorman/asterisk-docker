@@ -1,6 +1,9 @@
 pool: "Mirg On-Prem Linux Agents"
 
 steps:
+- checkout: self
+  clean: true
+  submodules: true
 - task: Docker@2
   inputs:
     command: 'build'
