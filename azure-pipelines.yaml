@@ -1,0 +1,7 @@
+pool: "Mirg On-Prem Linux Agents"
+
+steps:
+  task: PowerShell@2
+  inputs:
+    script: >
+      write-host "Hello world"
