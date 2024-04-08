@@ -1,7 +1,7 @@
 pool: "Mirg On-Prem Linux Agents"
 
 steps:
-- task: PowerShell@2
+- task: Docker@2
   inputs:
-    script: >
-      write-host "Hello world"
+    command: 'build'
+    Dockerfile: '/Dockerfile'
