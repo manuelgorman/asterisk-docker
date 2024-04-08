@@ -23,7 +23,7 @@ COPY src /src/
 WORKDIR /src/asterisk/
 RUN chmod +x contrib/scripts/install_prereq && \
     contrib/scripts/install_prereq install && \
-    ./configure --with-pjproject=/src/pjproject
+    ./configure --with-pjproject-bundled
 RUN make
 
 # Clean up package lists
